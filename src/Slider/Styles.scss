@@ -1,0 +1,18 @@
+.panel{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .slider{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+  .rateSection{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+  }
+  div, button{
+    margin-top: 4%;
+  }
+}
