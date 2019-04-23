@@ -52,7 +52,7 @@ export default class Panel extends React.Component {
         const totalAmount = amount + interestAmount;
         console.log('totalAmount', totalAmount)
 
-        const repayment = (totalAmount / annual).toFixed(0);
+        const repayment = Math.round(totalAmount / annual);
         console.log('repayment', repayment);
 
 
